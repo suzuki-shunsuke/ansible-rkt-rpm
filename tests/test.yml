@@ -1,0 +1,7 @@
+---
+- hosts: all
+  roles:
+    - role: ansible-rkt-rpm
+      rkt_version: v1.29.0
+      rkt_rpm: rkt-1.29.0-1.x86_64.rpm
+      become: yes
