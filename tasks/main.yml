@@ -1,0 +1,4 @@
+---
+- name: install rkt
+  yum:
+    name: https://github.com/rkt/rkt/releases/download/{{rkt_version}}/{{rkt_rpm}}
